@@ -1,0 +1,71 @@
+name: CodexThemeBar
+options:
+  deploymentTarget:
+    macOS: "26.0"
+settings:
+  base:
+    SWIFT_VERSION: 6.0
+    CURRENT_PROJECT_VERSION: 2
+    MARKETING_VERSION: 0.9.1
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "-"
+    DEVELOPMENT_TEAM: ""
+    META_REPO_ROOT: $(SRCROOT)
+targets:
+  CodexThemeBarCore:
+    type: framework
+    platform: macOS
+    sources:
+      - Core
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: local.codex.meta.codexthemebar.core
+        PRODUCT_NAME: CodexThemeBarCore
+        CODE_SIGN_IDENTITY: $(inherited)
+        GENERATE_INFOPLIST_FILE: YES
+  CodexThemeBar:
+    type: application
+    productName: Codex ThemeWurx
+    platform: macOS
+    sources:
+      - App
+    dependencies:
+      - target: CodexThemeBarCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: local.codex.meta.codexthemebar.v2
+        PRODUCT_NAME: Codex ThemeWurx
+        GENERATE_INFOPLIST_FILE: YES
+    info:
+      path: Info.plist
+      properties:
+        CFBundleDisplayName: Codex ThemeWurx
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSApplicationCategoryType: public.app-category.utilities
+        LSMinimumSystemVersion: "26.0"
+        LSUIElement: true
+        NSHighResolutionCapable: true
+        MetaRepoRoot: $(META_REPO_ROOT)
+  CodexThemeBarTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - Tests
+    dependencies:
+      - target: CodexThemeBarCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: local.codex.meta.codexthemebar.tests
+        PRODUCT_NAME: CodexThemeBarTests
+        PRODUCT_MODULE_NAME: CodexThemeBarTests
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  CodexThemeBar:
+    build:
+      targets:
+        CodexThemeBar: all
+        CodexThemeBarTests: [test]
+    test:
+      targets:
+        - name: CodexThemeBarTests
