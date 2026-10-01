@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006B88EE138DDCBF6751BA8C /* CodexThemeBarCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15AF50E9768A2E8B6EBC26E /* CodexThemeBarCore.framework */; };
+		0D7A8ECCDAC3A11060777FE0 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B6F054643C3A4F3597E4A1 /* StatusMenuController.swift */; };
+		184D6DAF040D6C7F30AB2819 /* MenuRainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC423273EC8040C7F01893AF /* MenuRainView.swift */; };
+		188875805600D47214E6023C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4A55D233C9068130C6A5C1 /* AppDelegate.swift */; };
+		1E1BAD4DD3485BE8DD6DAA52 /* ThemeShareString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A90C7017D9B6CBC07E5651 /* ThemeShareString.swift */; };
+		39C6E9C41AB170A0BF7ED832 /* ThemeBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32FD179AE13304C3B3E0519 /* ThemeBarModel.swift */; };
+		447C8C50C693B6F2BDAA4D8B /* ThemeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DB5BF79C716711FAA034E2 /* ThemeModels.swift */; };
+		44B323DBBDF3E8F1767935E9 /* CodexThemeBarCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B15AF50E9768A2E8B6EBC26E /* CodexThemeBarCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4574A0D260D1101AC05944D3 /* AppPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A3DB1739466160ABBFC970 /* AppPaths.swift */; };
+		48CE6209881B271FF86D129B /* CodexThemeBarCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B15AF50E9768A2E8B6EBC26E /* CodexThemeBarCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5DA0754EFD7ACE2CAB4A9975 /* CodexThemeBarCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15AF50E9768A2E8B6EBC26E /* CodexThemeBarCore.framework */; };
+		5DDC9AC026AA16F4DC9583F5 /* CodexGlobalStateStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A686ECB4E530C67204475 /* CodexGlobalStateStoreTests.swift */; };
+		6904D6986BBE50C20D1A1C44 /* ThemeMarkdownParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF631EFFE0CDEAA9053D93E8 /* ThemeMarkdownParserTests.swift */; };
+		6B712077524ABF08563DE3CB /* ThemeMarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDC7B0433A477E1F98E302 /* ThemeMarkdownParser.swift */; };
+		6CB175BB1E47576D1E4D1AB4 /* CodexGlobalStateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98490384BF99DCA7D8203CC9 /* CodexGlobalStateStore.swift */; };
+		AA5DD83B19C6975788A4FA6B /* CodexAppearanceImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFBFACEF146573F18F1364 /* CodexAppearanceImporter.swift */; };
+		BE77652364A2BEB8AE77FF0A /* FileWatchdog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4875B71D3499FD3263D44C80 /* FileWatchdog.swift */; };
+		E8AEF7AF3F35CC30C80CC26C /* CodexThemeBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432796945E33EC40C0799935 /* CodexThemeBarApp.swift */; };
+		EA35C352BB73E4874770FAAD /* MenuAurora.metal in Sources */ = {isa = PBXBuildFile; fileRef = 22372CD049E877FC7AA8A833 /* MenuAurora.metal */; };
+		F16E89A88B2247FD2065D059 /* SoftReloadCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED20238892E2DA5128763CA3 /* SoftReloadCoordinator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		936C4B007246299FD1B6D061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD956EE197E6B75B83321BDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C855F6FF4D549414CB21C2DA;
+			remoteInfo = CodexThemeBarCore;
+		};
+		DA124C47C44D2EEDC95B35CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD956EE197E6B75B83321BDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C855F6FF4D549414CB21C2DA;
+			remoteInfo = CodexThemeBarCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2509B230D23D1F55DE3075BC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				44B323DBBDF3E8F1767935E9 /* CodexThemeBarCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9446AE855B61A234E116C3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				48CE6209881B271FF86D129B /* CodexThemeBarCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22372CD049E877FC7AA8A833 /* MenuAurora.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MenuAurora.metal; sourceTree = "<group>"; };
+		34357505432E06D963533B6B /* Codex ThemeWurx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codex ThemeWurx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		366199A51C88FBC89304DE0C /* CodexThemeBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodexThemeBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		432796945E33EC40C0799935 /* CodexThemeBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexThemeBarApp.swift; sourceTree = "<group>"; };
+		4875B71D3499FD3263D44C80 /* FileWatchdog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWatchdog.swift; sourceTree = "<group>"; };
+		57FFBFACEF146573F18F1364 /* CodexAppearanceImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexAppearanceImporter.swift; sourceTree = "<group>"; };
+		585A686ECB4E530C67204475 /* CodexGlobalStateStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexGlobalStateStoreTests.swift; sourceTree = "<group>"; };
+		95CDC7B0433A477E1F98E302 /* ThemeMarkdownParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeMarkdownParser.swift; sourceTree = "<group>"; };
+		98490384BF99DCA7D8203CC9 /* CodexGlobalStateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexGlobalStateStore.swift; sourceTree = "<group>"; };
+		A7A90C7017D9B6CBC07E5651 /* ThemeShareString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeShareString.swift; sourceTree = "<group>"; };
+		B15AF50E9768A2E8B6EBC26E /* CodexThemeBarCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CodexThemeBarCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B6F054643C3A4F3597E4A1 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		D32FD179AE13304C3B3E0519 /* ThemeBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeBarModel.swift; sourceTree = "<group>"; };
+		D6A3DB1739466160ABBFC970 /* AppPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPaths.swift; sourceTree = "<group>"; };
+		EC423273EC8040C7F01893AF /* MenuRainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRainView.swift; sourceTree = "<group>"; };
+		ED20238892E2DA5128763CA3 /* SoftReloadCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftReloadCoordinator.swift; sourceTree = "<group>"; };
+		ED4A55D233C9068130C6A5C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8DB5BF79C716711FAA034E2 /* ThemeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModels.swift; sourceTree = "<group>"; };
+		FF631EFFE0CDEAA9053D93E8 /* ThemeMarkdownParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeMarkdownParserTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		367B12B338CDD6F619AF31B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006B88EE138DDCBF6751BA8C /* CodexThemeBarCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C4DDC10683DD2A4263532A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA0754EFD7ACE2CAB4A9975 /* CodexThemeBarCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6616920E0F350375C36CA711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34357505432E06D963533B6B /* Codex ThemeWurx.app */,
+				B15AF50E9768A2E8B6EBC26E /* CodexThemeBarCore.framework */,
+				366199A51C88FBC89304DE0C /* CodexThemeBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7334924E9E84ABC774B3E787 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				585A686ECB4E530C67204475 /* CodexGlobalStateStoreTests.swift */,
+				FF631EFFE0CDEAA9053D93E8 /* ThemeMarkdownParserTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		AFEDC0E0502FE4E89B2AB2B6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ED4A55D233C9068130C6A5C1 /* AppDelegate.swift */,
+				D6A3DB1739466160ABBFC970 /* AppPaths.swift */,
+				57FFBFACEF146573F18F1364 /* CodexAppearanceImporter.swift */,
+				432796945E33EC40C0799935 /* CodexThemeBarApp.swift */,
+				22372CD049E877FC7AA8A833 /* MenuAurora.metal */,
+				EC423273EC8040C7F01893AF /* MenuRainView.swift */,
+				ED20238892E2DA5128763CA3 /* SoftReloadCoordinator.swift */,
+				B9B6F054643C3A4F3597E4A1 /* StatusMenuController.swift */,
+				D32FD179AE13304C3B3E0519 /* ThemeBarModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C9F6F15A41EE24178DA88295 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				98490384BF99DCA7D8203CC9 /* CodexGlobalStateStore.swift */,
+				4875B71D3499FD3263D44C80 /* FileWatchdog.swift */,
+				95CDC7B0433A477E1F98E302 /* ThemeMarkdownParser.swift */,
+				F8DB5BF79C716711FAA034E2 /* ThemeModels.swift */,
+				A7A90C7017D9B6CBC07E5651 /* ThemeShareString.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E0CF25E27E256F73F10D6B06 = {
+			isa = PBXGroup;
+			children = (
+				AFEDC0E0502FE4E89B2AB2B6 /* App */,
+				C9F6F15A41EE24178DA88295 /* Core */,
+				7334924E9E84ABC774B3E787 /* Tests */,
+				6616920E0F350375C36CA711 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19BA1E8EB800C27EF603E547 /* CodexThemeBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18678EBDBADE8F28A2AD7794 /* Build configuration list for PBXNativeTarget "CodexThemeBarTests" */;
+			buildPhases = (
+				DC764DC3BCB6D93BE0F85482 /* Sources */,
+				367B12B338CDD6F619AF31B4 /* Frameworks */,
+				AF9446AE855B61A234E116C3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D9F31180FFBE428CA559F8F /* PBXTargetDependency */,
+			);
+			name = CodexThemeBarTests;
+			packageProductDependencies = (
+			);
+			productName = CodexThemeBarTests;
+			productReference = 366199A51C88FBC89304DE0C /* CodexThemeBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F4F6F492D126D6878017AA0 /* CodexThemeBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C78B0CAECD6641FA3EF3D58 /* Build configuration list for PBXNativeTarget "CodexThemeBar" */;
+			buildPhases = (
+				AA717AAD821987371D30C7F5 /* Sources */,
+				D2C4DDC10683DD2A4263532A /* Frameworks */,
+				2509B230D23D1F55DE3075BC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD9D8EA7AD1DC1542736CDD5 /* PBXTargetDependency */,
+			);
+			name = CodexThemeBar;
+			packageProductDependencies = (
+			);
+			productName = CodexThemeBar;
+			productReference = 34357505432E06D963533B6B /* Codex ThemeWurx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C855F6FF4D549414CB21C2DA /* CodexThemeBarCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E882D50CCB1A496377EBC1C1 /* Build configuration list for PBXNativeTarget "CodexThemeBarCore" */;
+			buildPhases = (
+				A1627B7C7B9448AD2F11F972 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodexThemeBarCore;
+			packageProductDependencies = (
+			);
+			productName = CodexThemeBarCore;
+			productReference = B15AF50E9768A2E8B6EBC26E /* CodexThemeBarCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD956EE197E6B75B83321BDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					19BA1E8EB800C27EF603E547 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+					1F4F6F492D126D6878017AA0 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+					C855F6FF4D549414CB21C2DA = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = ABAB5A76CFF9381C9F0B72ED /* Build configuration list for PBXProject "CodexThemeBar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E0CF25E27E256F73F10D6B06;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6616920E0F350375C36CA711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C855F6FF4D549414CB21C2DA /* CodexThemeBarCore */,
+				1F4F6F492D126D6878017AA0 /* CodexThemeBar */,
+				19BA1E8EB800C27EF603E547 /* CodexThemeBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1627B7C7B9448AD2F11F972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB175BB1E47576D1E4D1AB4 /* CodexGlobalStateStore.swift in Sources */,
+				BE77652364A2BEB8AE77FF0A /* FileWatchdog.swift in Sources */,
+				6B712077524ABF08563DE3CB /* ThemeMarkdownParser.swift in Sources */,
+				447C8C50C693B6F2BDAA4D8B /* ThemeModels.swift in Sources */,
+				1E1BAD4DD3485BE8DD6DAA52 /* ThemeShareString.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA717AAD821987371D30C7F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188875805600D47214E6023C /* AppDelegate.swift in Sources */,
+				4574A0D260D1101AC05944D3 /* AppPaths.swift in Sources */,
+				AA5DD83B19C6975788A4FA6B /* CodexAppearanceImporter.swift in Sources */,
+				E8AEF7AF3F35CC30C80CC26C /* CodexThemeBarApp.swift in Sources */,
+				EA35C352BB73E4874770FAAD /* MenuAurora.metal in Sources */,
+				184D6DAF040D6C7F30AB2819 /* MenuRainView.swift in Sources */,
+				F16E89A88B2247FD2065D059 /* SoftReloadCoordinator.swift in Sources */,
+				0D7A8ECCDAC3A11060777FE0 /* StatusMenuController.swift in Sources */,
+				39C6E9C41AB170A0BF7ED832 /* ThemeBarModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC764DC3BCB6D93BE0F85482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDC9AC026AA16F4DC9583F5 /* CodexGlobalStateStoreTests.swift in Sources */,
+				6904D6986BBE50C20D1A1C44 /* ThemeMarkdownParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D9F31180FFBE428CA559F8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C855F6FF4D549414CB21C2DA /* CodexThemeBarCore */;
+			targetProxy = 936C4B007246299FD1B6D061 /* PBXContainerItemProxy */;
+		};
+		FD9D8EA7AD1DC1542736CDD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C855F6FF4D549414CB21C2DA /* CodexThemeBarCore */;
+			targetProxy = DA124C47C44D2EEDC95B35CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B6701F7B3961D2CA9824BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "$(inherited)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.codex.meta.codexthemebar.core;
+				PRODUCT_NAME = CodexThemeBarCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		5F4A6B989F941B5D9045E494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.9.3;
+				META_REPO_ROOT = "$(SRCROOT)";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		73A526E73B2A6D9DE83E30D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.codex.meta.codexthemebar.v2;
+				PRODUCT_NAME = "Codex ThemeWurx";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A0081EC29534B8EFAC8D9CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.codex.meta.codexthemebar.tests;
+				PRODUCT_MODULE_NAME = CodexThemeBarTests;
+				PRODUCT_NAME = CodexThemeBarTests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B176BFA0E415DA4F43A1011F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.9.3;
+				META_REPO_ROOT = "$(SRCROOT)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		D2558D9FEE4E88A3C557B839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.codex.meta.codexthemebar.v2;
+				PRODUCT_NAME = "Codex ThemeWurx";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DFE40FDBCA38151673030E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.codex.meta.codexthemebar.tests;
+				PRODUCT_MODULE_NAME = CodexThemeBarTests;
+				PRODUCT_NAME = CodexThemeBarTests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F96F002922EFCA16156E2F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "$(inherited)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.codex.meta.codexthemebar.core;
+				PRODUCT_NAME = CodexThemeBarCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C78B0CAECD6641FA3EF3D58 /* Build configuration list for PBXNativeTarget "CodexThemeBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A526E73B2A6D9DE83E30D9 /* Debug */,
+				D2558D9FEE4E88A3C557B839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		18678EBDBADE8F28A2AD7794 /* Build configuration list for PBXNativeTarget "CodexThemeBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0081EC29534B8EFAC8D9CBA /* Debug */,
+				DFE40FDBCA38151673030E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ABAB5A76CFF9381C9F0B72ED /* Build configuration list for PBXProject "CodexThemeBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F4A6B989F941B5D9045E494 /* Debug */,
+				B176BFA0E415DA4F43A1011F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E882D50CCB1A496377EBC1C1 /* Build configuration list for PBXNativeTarget "CodexThemeBarCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6701F7B3961D2CA9824BF1 /* Debug */,
+				F96F002922EFCA16156E2F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD956EE197E6B75B83321BDD /* Project object */;
+}
