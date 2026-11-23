@@ -1,0 +1,15 @@
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.build/
+.codex/
+*.xcresult/
+themes/*.theme-bar.backup.md
+themes/custom-themes.md
+.env
+.env.*
+*.p12
+*.pfx
+*.key
